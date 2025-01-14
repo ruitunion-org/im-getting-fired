@@ -1,0 +1,15 @@
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.item {
+  color: var(--color-text-2);
+
+  transition: color 0.2s ease-in-out;
+
+  &:hover {
+    color: var(--color-text-1);
+  }
+}
