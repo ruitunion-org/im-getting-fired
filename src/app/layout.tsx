@@ -26,6 +26,7 @@ export default function RootLayout({
           src="https://plausible.ruitunion.org/js/plausible.js"
         ></script>
       </head>
+      
       <body className={`${geologica.className}  antialiased`}>{children}</body>
     </html>
   );
