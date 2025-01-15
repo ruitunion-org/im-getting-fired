@@ -3,7 +3,6 @@
 import { CSSProperties } from "react";
 import clsx from "clsx";
 import { tw } from "@/shared/lib/formatTailwindClasses";
-import Image from "next/image";
 
 export interface ImagePlaceholderProps {
   className?: string;
@@ -37,8 +36,7 @@ export function ImageWithPlaceholder({
     <div className={clsx(baseClasses, className)} style={{ width, height }}>
       <div className="absolute inset-0 bg-black/[0.04] rounded-xl" />
 
-      <Image
-        fill
+      <img
         src={src}
         alt=""
         className={clsx("w-full h-full object-cover !relative", imageClassName)}
