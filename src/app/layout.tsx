@@ -19,6 +19,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ru">
+      <head>
+        <script
+          defer
+          data-domain="layoffs.ruitunion.org"
+          src="https://plausible.ruitunion.org/js/plausible.js"
+        ></script>
+      </head>
       <body className={`${geologica.className}  antialiased`}>{children}</body>
     </html>
   );
