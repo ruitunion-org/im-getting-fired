@@ -108,6 +108,25 @@ export const AdditionalInfo = () => {
               </Text>
             </div>
           </Accordion>
+          <Accordion title="Я не айтишник">
+            <div>
+              <p>
+                Трудовое законодательство действует одинаково для всех сфер, но
+                наша команда специализируется на IT-индустрии. Если вы работаете
+                в другой области, рекомендуем обратиться к нашим друзьям из{" "}
+                <a
+                  href="https://rotfront.org/contacts/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Text as="span" fontWeight={500} color="accent">
+                    &nbsp;«Российского Трудового Фронта»&nbsp;
+                  </Text>
+                </a>
+                — они помогут вам разобраться с вопросами в вашей сфере.
+              </p>
+            </div>
+          </Accordion>
         </Flex>
       </Flex>
     </ContentWrapper>
