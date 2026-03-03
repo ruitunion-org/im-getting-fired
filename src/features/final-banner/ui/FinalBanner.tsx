@@ -34,7 +34,7 @@ export const FinalBanner = () => {
               готовьте сани летом.
             </Text>
             <Text>
-              ✊ Самое эффективный способ защиты своих трудовых прав —
+              ✊ Самый эффективный способ защиты своих трудовых прав —
               <a
                 href="https://ruitunion.org/posts/2024-05-31-how-to-build-union/"
                 target="_blank"
